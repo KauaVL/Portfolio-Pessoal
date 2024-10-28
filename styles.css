@@ -1,0 +1,234 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f4f4f9;
+    background-image: url('imagens/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;                   
+    right: 0;                  
+    background-color: rgba(61, 59, 59, 0.8);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    z-index: 1000;
+    width: 100%;               
+    box-sizing: border-box;    
+}
+
+.navbar a {
+    color: #f4f4f9;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+.navbar a:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+#sobre, #formacao, #projetos, #contato {
+    scroll-margin-top: 50vh; 
+    padding-top: 20px; 
+}
+
+body {
+    padding-top: 60px;
+}
+
+
+
+.Nome {
+    
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    object-fit: cover;
+}
+
+.header {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.sobre {
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 420px;
+    margin-top: 30px;
+}
+
+.formacao {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.formacao h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #f4f4f9;
+}
+
+.formacao-item {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.formacao-item h3 {
+    font-size: 1.4em;
+    color: #333;
+}
+
+.formacao-item p, .formacao-item span {
+    color: #777;
+    font-size: 1em;
+}
+
+.projetos {
+    max-width: 100%;
+    overflow-x: auto;               
+    padding: 20px;
+}
+
+.projetos h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #f4f4f9;
+}
+
+.projetos-container {
+    display: flex;                  
+    gap: 15px;                      
+}
+
+.git-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.projeto-item {
+    min-width: 250px;               
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.projeto-item h3{
+    color: #333;
+    font-size: 1.4em;
+
+}
+.projeto-item p{
+    font-size: 1em;
+    color: #333;
+
+
+}
+.contato {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contato h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.icons{
+    width: 50px;
+    height: 50px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.redes-sociais a:hover {
+    color: #007bff;
+}
+
+.redes-sociais2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.gmail{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.Telefone{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.redes-sociais2 p{
+    margin-left: 10px;
+}
+
+.malito{
+    padding: 8px 10px;
+    background-color: #4285f4; 
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 10px;
+}
